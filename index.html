@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Form</title>
+</head>
+<body>
+    <main class="main">
+        <!-- <img src="images/hiclipart 2.png" alt="Image of a Duck" style="width: 100%; height: 100%;" > -->
+        <form class="form" autocomplete="off">
+            <label for="title" class="label-title"></label>
+            <h1 class="title">Contact Us</h1>
+
+            <label for="family name" class="label">Family Name</label>
+            <input type="text" name="family name" id="family name"  class="text-input" placeholder="Enter your  family name">
+            <label for="first name" class="label">First Name</label>
+            <input type="text" name="first name" id="first name"  class="text-input"  placeholder="Enter your first name">
+            <label for="age" class="label">Age</label>
+            <input type="text" name="age" id="age"  class="text-input"  placeholder="Enter your age">
+            <label for="phone" class="label">Phone</label>
+            <input type="text" name="phone" id="phone"  class="text-input"  placeholder="Enter your phone number including country code">
+            <label for="email" class="label">Email Address</label>
+            <input type="email" name="email" id="email"  class="text-input"  placeholder="Enter your email" required autofocus>
+            
+            <label class="label label--large">
+                <div class="label__text">Your message</div>
+                <textarea name="message" cols="20" rows="5" class="textarea" placeholder="Enter your message"></textarea>
+            </label>
+            
+        </form>
+        <button class="submit" disabled type="submit">Submit</button>
+        
+    </main>
+</body>
+</html>
