@@ -1,0 +1,173 @@
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	/* content:url(../images/hiclipart\ 2.png); */
+	background-image:url(../images/hiclipart\ 2.png);
+    background-size: 40px 40px;
+    background-repeat: repeat;
+    background-position: center;
+	min-height: 100vh;
+}
+
+.form {
+	box-sizing: border-box;
+	width: 40%;
+	min-height: 560px;
+    padding: 20px;
+    background-color: #24c06a  ;  
+	opacity: .95;
+	border: 2px rgb(73, 103, 148);
+	border-radius: 4px;
+	box-shadow: 0px 3px 4px #050000;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+    justify-content: center;
+    font-family: 'poppins',
+}
+
+.title  {
+
+    text-align: center;
+	padding-top: 10px;
+	margin-top: -4px;
+    border: 2px rgb(73, 103, 148);
+	border-radius: 4px;
+	background-color: #35f3e3b3;
+	box-shadow: 0px 3px 4px #050000;
+	cursor: cell;
+	font-size: 30px;
+	font-family:'poppins';
+	text-shadow: 0px 2px 4px;
+}
+
+.label-title{
+	display: block;
+	background-color: rgb(73, 103, 148);
+	padding:10px;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 2px #050000;
+	border-radius: 4px;
+	position: relative;
+	bottom: -2px;
+	z-index: 1;
+	width: 100%;
+	height: 25px
+	
+	
+}
+
+.label {
+	display: block;
+	font-size: 12px;
+	box-sizing: border-box;
+	position: relative;
+	bottom: -2px;
+	z-index: 1;
+	width: 100%;
+	height: max-content;
+	background-color: rgb(73, 103, 148);
+	padding: 5px 5px 5px 10px;
+	color: #222222;
+	cursor: text;
+	box-shadow: 0px 1px 2px #050000;
+	border-radius: 4px;
+	
+}
+
+.text-input{ 
+	box-sizing: border-box;
+	width: 100%;
+	min-height: min-content;
+	position: relative;
+	z-index: 0;
+	top: -4px;
+	min-height: 26px;
+	margin-bottom: 10px;
+	border: 2px rgb(73, 103, 148);
+	background-color: #35f3e3b3;
+	box-shadow: 0px 3px 4px #050000;
+	border-radius: 4px;
+	padding: 10px 0px 5px 10px;
+	transition: ease-in-out 2s;
+	opacity: 1;
+
+}
+
+
+
+.text-input::placeholder, .textarea::placeholder {
+	color:black
+	
+}
+
+
+	
+
+
+.label--large {
+	padding: 0;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	
+}
+
+.label__text {
+	padding: 5px 5px 5px 10px;
+	background-color: rgb(73, 103, 148);
+	border: 2px rgb(73, 103, 148);
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px #050000;
+	z-index: 2;
+	font-family: 'poppins',
+}
+
+.textarea {
+	
+	width: 100%;
+	opacity: 0;
+	border-radius: 4px;
+	margin-top: -2px;
+	z-index: 1;
+	background-color: #35f3e3b3;
+	border: none;
+	box-shadow: 0px 3px 4px #050000;
+	padding: 10px 0px 5px 10px;
+	box-shadow: 0px 3px 4px #050000;
+	font-family: 'poppins',
+	
+}
+
+.submit {
+	justify-self: unset;top: 500px;
+	transition: ease-in-out 2s;
+	width: 40%;
+	height: 36px;
+	box-sizing: border-box;
+	margin: 25px;
+	border-radius: 4px;
+	border: 2px;
+	border-color: rgb(73, 103, 148);
+	background-color: #24c06a;
+	color: #09110d;
+	box-shadow: 0px 3px 4px #000000;
+	font-size: 14px;
+	font-style: bold;
+	opacity: .95;
+	cursor: pointer
+	
+
+}
+
+.text-input:focus, .textarea:focus, .button:focus {
+	outline: none;
+}
+
+.text-input:hover, .textarea:hover, .submit:hover{
+	background-color: rgb(4, 235, 235);
+	transition: ease-in-out 2s;
+}
