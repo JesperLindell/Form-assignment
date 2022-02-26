@@ -38,6 +38,7 @@
     border: 2px rgb(73, 103, 148);
 	border-radius: 4px;
 	background-color: #35f3e3b3;
+    color: rgb(11, 52, 112);
 	box-shadow: 0px 3px 4px #050000;
 	cursor: cell;
 	font-size: 30px;
@@ -101,7 +102,7 @@
 
 
 .text-input::placeholder, .textarea::placeholder {
-	color:black
+	color:rgb(73, 103, 148);
 	
 }
 
