@@ -11,7 +11,7 @@
 </head>
 <body>
     <main class="main">
-        <!-- <img src="images/hiclipart 2.png" alt="Image of a Duck" style="width: 100%; height: 100%;" > -->
+    
         <form class="form" autocomplete="off">
             <label for="title" class="label-title"></label>
             <h1 class="title">Contact Us</h1>
@@ -27,11 +27,9 @@
             <label for="email" class="label">Email Address</label>
             <input type="email" name="email" id="email"  class="text-input"  placeholder="Enter your email" required autofocus>
             
-            <label class="label label--large">
-                <div class="label__text">Your message</div>
-                <textarea name="message" cols="20" rows="5" class="textarea" placeholder="Enter your message"></textarea>
-            </label>
-            
+            <label for="message"class="label"> Message </label>
+            <textarea name="message" id="message" cols="10" rows="5" class="textarea" placeholder="Enter your message"></textarea>
+        
         </form>
         <button class="submit" disabled type="submit">Submit</button>
 
